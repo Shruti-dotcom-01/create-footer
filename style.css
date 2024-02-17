@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(128, 136, 136, 0.305);
+}
+
+.footer{
+    background: #6d6e6f;
+    margin-top: 62vh;
+}
+
+.footer .box-container{
+   border: 0px solid;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+   gap :1.0rem;
+}
+
+.footer .box-container h2{
+   font-size: 30px;
+   padding: 1rem 0;
+}
+
+.footer .box-container p{
+   line-height: 1.2;
+   display: block;
+   font-size: 15px;
+   color: rgb(187, 194, 189);
+   padding:  2px;
+}
+
+.footer .box-container  h4{
+    display: block;
+    font-size: 15px;
+    color: rgb(187, 194, 189);
+    padding:  2px;
+    cursor: pointer;
+}
+
+.footer .box-container  h4:hover{
+    color: rgb(42, 42, 42);
+    transition: .3s;
+}
+
+.col-right a i{
+    padding-right: 10px;
+}
+
+.col-right a{
+    color: black;
+    padding-block: 4px;
+}
+
+.footer .box-container h4:hover i{
+  padding-right: 2rem;
+}
+
+.footer .box-container .icons a{
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  border-radius: 5px;
+  font-size: 20px;
+  color: black;
+  margin-left: .2rem;
+  padding-inline: 4px;
+  background: #b1aeae;
+  text-align: center;
+}
+
+.footer .box-container .icons a:hover{
+    color: rgb(253, 244, 244);
+    background: rgb(1, 14, 1);
+}
+
+.footer .company-name {
+ justify-content: center;
+ text-align: center;
+ margin-top: 2rem;
+ padding: 1rem;
+ padding-top: 2.5rem;
+ font-size: 15px;
+ color: rgb(14, 14, 14);
+ padding-left: 15rem;
+}
+
+@media (max-width:991px){
+ .footer .company-name {
+   text-align: center;
+ }
+}
+
+@media (max-width: 450px){
+    .footer{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
